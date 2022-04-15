@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send({
     name: 'Andrew',
     likes: [
-      'apple',
+      'berry',
       'Cities'
     ]
   });
@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 
 const titleOptions = {
-      describe: 'Title of note', 
+      describe: 'Title of note',
       demand: true,
       alias: 't',
     };
