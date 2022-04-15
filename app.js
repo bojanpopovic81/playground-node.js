@@ -40,7 +40,7 @@ const argv = yargs
   .command('read', 'Read a note', {
     title: titleOptions 
   })
-  .command('remove', 'Remove a note', {
+  .command('remove', 'Remove a noteasda', {
     title: titleOptions  
   })  
   .help()
