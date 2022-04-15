@@ -32,7 +32,7 @@ const bodyOptions = {
     };    
 
 const argv = yargs
-  .command('add', 'Add a new note', {
+  .command('add', 'M3', {
     title: titleOptions,
     body:bodyOptions
   })
