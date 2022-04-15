@@ -1,9 +1,23 @@
 const fs = require('fs');
 const _ = require('lodash');
 const yargs = require('yargs');
-//;const express = require('express');
-
+const express = require('express');
 const notes = require('./notes.js');
+
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+app.get('/', (req, res) => {
+  // res.send('<h1>Hello Express!</h1>');
+  res.send({
+    name: 'Andrew',
+    likes: [
+      'Biking',
+      'Cities'
+    ]
+  });
+}); 
+
 
 const titleOptions = {
       describe: 'Title of note', 
@@ -60,3 +74,7 @@ if (command === 'add') {
 } else {
   console.log('Command not recognized');
 }
+
+app.listen(3000, () => {
+  console.log('Server is up on port 3000');
+}); 

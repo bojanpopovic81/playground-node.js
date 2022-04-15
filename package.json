@@ -9,6 +9,7 @@
   "author": "Andrew Mead",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "lodash": "^4.13.1",
     "yargs": "^4.7.1"
   }
