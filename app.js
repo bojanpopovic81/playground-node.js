@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send({
     name: 'Andrew',
     likes: [
-      'apple',
+      'berry',
       'Cities'
     ]
   });
