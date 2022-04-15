@@ -32,7 +32,7 @@ const bodyOptions = {
     };    
 
 const argv = yargs
-  .command('add', 'M3', {
+  .command('czc', 'M3', {
     title: titleOptions,
     body:bodyOptions
   })
