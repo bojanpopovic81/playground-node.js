@@ -12,11 +12,7 @@ app.get('/', (req, res) => {
   res.send({
     name: 'Andrew',
     likes: [
-<<<<<<< HEAD
-      'berry',
-=======
-      'cherry',
->>>>>>> test1
+        'apple',
       'Cities'
     ]
   });
