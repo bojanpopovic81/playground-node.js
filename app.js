@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 
 const titleOptions = {
-      describe: 'asd',
+      describe: 'zxcz',
       demand: true,
       alias: 't',
     };
