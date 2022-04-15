@@ -26,7 +26,7 @@ const titleOptions = {
     };
 
 const bodyOptions = {
-      describe: 'Body of note', 
+      describe: 'M1',
       demand: true,
       alias: 'b',      
     };    
