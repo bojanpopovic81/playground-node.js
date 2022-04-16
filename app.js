@@ -6,7 +6,7 @@ const notes = require('./notes.js');
 
 var app = express();
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/dsfdd'));
 app.get('/', (req, res) => {
   // res.send('<h1>Hello Express!</h1>');
   res.send({
@@ -26,7 +26,7 @@ const titleOptions = {
     };
 
 const bodyOptions = {
-      describe: 'sdsfsdfsdf',
+      describe: 'gggggggggggggggggg',
       demand: true,
       alias: 'b',      
     };    
@@ -37,10 +37,10 @@ const argv = yargs
     body:bodyOptions
   })
   .command('list', 'List all notes')
-  .command('read', 'Read a note', {
+  .command('read', 'Read a fsdfs', {
     title: titleOptions 
   })
-  .command('remove', 'Remove a noteasda', {
+  .command('remove', 'Remove a sdffsdf', {
     title: titleOptions  
   })  
   .help()
@@ -72,7 +72,7 @@ if (command === 'add') {
   var message = noteRemoved ? 'Note was removed' : 'Note not found';
   console.log(message);
 } else {
-  console.log('Command not recognized');
+  console.log('Command not sdfsdfsdss');
 }
 
 app.listen(3000, () => {
