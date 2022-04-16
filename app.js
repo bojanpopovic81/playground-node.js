@@ -26,7 +26,7 @@ const titleOptions = {
     };
 
 const bodyOptions = {
-      describe: 'sdsfsdfsdf',
+      describe: 'gggggggggggggggggg',
       demand: true,
       alias: 'b',      
     };    
