@@ -6,7 +6,7 @@ const notes = require('./notes.js');
 
 var app = express();
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/dsfdd'));
 app.get('/', (req, res) => {
   // res.send('<h1>Hello Express!</h1>');
   res.send({
